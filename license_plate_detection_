@@ -1,0 +1,16 @@
+Create an OpenCV model that detects vehicle's license plates.
+
+1. Import necessary libraries
+
+```
+import cv2
+```
+
+2. Declare variables
+
+```
+platecascade = cv2.CascadeClassifier("Resources/haarcascade_russian_plate_number.xml") # imported haarcascade library from [here]("https://github.com/opencv/opencv/tree/master/data/haarcascades")
+minArea = 500
+cap = cv2.VideoCapture("Resources/licensePLateVideo.mp4")
+count = 0
+```
