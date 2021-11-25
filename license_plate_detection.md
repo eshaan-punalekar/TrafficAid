@@ -1,11 +1,10 @@
 1. Import all necessary libraries
 ```
 import cv2
-
 ```
 2. Declare variables
 
-The haarcascade can be found (here) ["https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_russian_plate_number.xml"]
+The haarcascade can be found [here] ("https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_russian_plate_number.xml")
 
 3. 
 
